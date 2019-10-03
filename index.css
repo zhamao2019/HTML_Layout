@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap');
+
+body{
+    margin: 50px ;
+    
+    font-family: 'Roboto',Arial,sans-serif;
+}
+
+nav{
+    width: 85%;
+    height: 50px;
+    padding: 0 30px;
+    background-color: hsl(210, 50%, 50%);
+    position: fixed;
+    border-bottom: 30px solid hsl(210, 51%, 20%);
+}
+
+nav a{
+    padding-right: 30px;
+    color: hsl(280, 100%, 100%);
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.nav-links:hover{
+    text-decoration: underline;
+}
+
+.image-container{
+    position: relative;
+    top: 80px;
+    padding: 20px 30px;
+    background-image: url(img/img1.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: left;
+}
+
+.image-container h1{
+    color: hsl(210, 51%, 20%);
+    text-shadow: 3px 3px hsl(280, 100%, 100%);
+    font-size: 6rem;
+    line-height: 2rem;
+}
+
+.image-container h2{
+    color: hsl(209, 50%, 80%);
+    text-shadow: 3px 3px hsl(210, 51%, 20%);
+    font-size: 4rem;
+}
+
+main{
+    text-align: left;
+    padding: 80px 50px;
+    font-size: 1rem;
+    color: hsl(0, 0%, 0%);
+}
+
+main h3{
+    font-size: 3rem;
+    color: hsl(210, 50%, 50%);
+}
+main h4{
+    font-size: 1.5rem;
+    color: hsl(210, 50%, 50%);
+}
+
+main p{
+    font-family: 'Raleway', Arial, sans-serif;
+    line-height: 2rem;
+}
+main ul,li{
+    font-family: 'Raleway', Arial, sans-serif;
+    padding: 0 16px;
+    line-height: 2rem;
+}
