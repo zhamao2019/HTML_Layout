@@ -5,8 +5,8 @@ body{
     font-family: 'Roboto',Arial,sans-serif;
 }
 
-.navigation{
-    padding: 0 30px;
+nav{
+    padding: 0 50px;
     background-color: hsl(210, 50%, 50%);
     /*position: fixed;*/
     border-bottom: 30px solid hsl(210, 51%, 20%);
@@ -16,7 +16,7 @@ nav a{
     padding-right: 30px;
     color: hsl(280, 100%, 100%);
     font-size: 1.5rem;
-    line-height: 50px;
+    line-height: 60px;
     text-decoration: none;
 }
 
@@ -27,7 +27,7 @@ nav a{
 .image-container{
     /*position: relative;
     top: 80px;*/
-    padding: 20px 30px;
+    padding: 20px 50px;
     background-image: url(img/img1.jpg);
     background-position: left;
     background-repeat: no-repeat;
